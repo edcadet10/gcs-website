@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #1A365D;
+  --secondary-color: #2AB7CA;
+  --accent-color: #FE9920;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Custom component classes */
+@layer components {
+  .btn {
+    @apply py-2 px-4 rounded-md font-medium transition-colors duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary-dark;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary text-white hover:bg-secondary-dark;
+  }
+  
+  .btn-accent {
+    @apply bg-accent text-white hover:bg-accent-dark;
+  }
+  
+  .btn-outline {
+    @apply border-2 bg-transparent;
+  }
+  
+  .btn-outline-primary {
+    @apply border-primary text-primary hover:bg-primary hover:text-white;
+  }
+  
+  .btn-outline-white {
+    @apply border-2 border-white text-white hover:bg-white hover:text-primary;
+  }
+  
+  .container-custom {
+    @apply container mx-auto px-4 md:px-6;
+  }
+  
+  .section {
+    @apply py-12 md:py-16 lg:py-24;
+  }
+  
+  /* Add padding for fixed header */
+  main {
+    @apply pt-16 md:pt-20;
+  }
+}
+
+/* Image container styles */
+.image-container {
+  position: relative !important;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  min-height: 1rem; /* Ensure there's always some height */
+}
+
+.image-container-fixed-height {
+  position: relative !important;
+  overflow: hidden;
+  height: 250px;
+  width: 100%;
+}
+
+.image-container-portrait {
+  position: relative !important;
+  overflow: hidden;
+  aspect-ratio: 3/4;
+  width: 100%;
+}
+
+.image-container-landscape {
+  position: relative !important;
+  overflow: hidden;
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+
+.image-container-square {
+  position: relative !important;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+  width: 100%;
+}
+
+.image-container-avatar {
+  position: relative !important;
+  overflow: hidden;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 9999px;
+}
+
+/* Leaflet map styles */
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+/* Low bandwidth optimizations */
+@media (prefers-reduced-data: reduce) {
+  img {
+    @apply filter blur-sm;
+  }
+}
+
+/* Add animation class */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

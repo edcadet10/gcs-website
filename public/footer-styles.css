@@ -1,0 +1,77 @@
+/* Custom footer styles */
+
+footer {
+  position: relative;
+  color: white !important;
+}
+
+footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(11, 34, 71, 0.7); /* Dark blue overlay for visibility */
+  z-index: 0;
+}
+
+footer > * {
+  position: relative;
+  z-index: 1;
+}
+
+footer p, 
+footer h3, 
+footer a, 
+footer address,
+footer span,
+footer label,
+footer div {
+  color: white !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+footer h3 {
+  font-weight: 600;
+}
+
+footer a:hover {
+  color: #FE9920 !important; /* Accent color on hover */
+}
+
+footer input {
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+footer input::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.footer-button {
+  background-color: #FE9920 !important;
+  color: white !important;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.footer-button:hover {
+  background-color: #e58a1c !important;
+  transform: translateY(-1px);
+}
+
+.footer-social a {
+  opacity: 0.9;
+  transition: all 0.2s ease;
+}
+
+.footer-social a:hover {
+  opacity: 1;
+  transform: translateY(-2px);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+}

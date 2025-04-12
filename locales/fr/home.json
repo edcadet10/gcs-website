@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Geolink Consulting and Services - Solutions géomatiques en Haïti",
+    "description": "Services géomatiques professionnels en Haïti et dans les Caraïbes - SIG, cartographie, télédétection, analyse spatiale et plus."
+  },
+  "hero": {
+    "title": "La géomatique au service de tous",
+    "subtitle": "Solutions géospatiales innovantes adaptées aux besoins spécifiques d'Haïti et des Caraïbes",
+    "discoverServices": "Découvrir nos services",
+    "workshopSignup": "S'inscrire à une formation"
+  },
+  "services": {
+    "title": "Nos services",
+    "subtitle": "Expertise géospatiale pour soutenir vos projets, de la collecte de données à l'analyse approfondie",
+    "learnMore": "En savoir plus",
+    "viewAll": "Voir tous les services"
+  },
+  "projects": {
+    "title": "Projets récents",
+    "subtitle": "Découvrez nos réalisations et comment nos solutions géomatiques ont répondu aux défis de nos clients",
+    "viewDetails": "Voir les détails",
+    "viewAll": "Tous nos projets",
+    "goToSlide": "Aller au projet {{index}}",
+    "next": "Projet suivant",
+    "previous": "Projet précédent"
+  },
+  "testimonials": {
+    "title": "Ce que nos clients disent",
+    "subtitle": "Découvrez l'expérience de ceux qui ont fait confiance à notre expertise",
+    "previous": "Témoignage précédent",
+    "next": "Témoignage suivant",
+    "goToSlide": "Aller au témoignage {{index}}"
+  },
+  "stats": {
+    "title": "GCS en chiffres",
+    "projects": "Projets réalisés",
+    "clients": "Clients satisfaits",
+    "trainings": "Personnes formées",
+    "countries": "Pays d'intervention"
+  },
+  "newsletter": {
+    "title": "Restez informé",
+    "subtitle": "Inscrivez-vous à notre newsletter pour recevoir les dernières actualités et ressources",
+    "placeholder": "Votre adresse email",
+    "button": "S'inscrire",
+    "success": "Merci pour votre inscription !",
+    "error": "Une erreur est survenue. Veuillez réessayer."
+  },
+  "cta": {
+    "title": "Prêt à transformer vos données en décisions ?",
+    "subtitle": "Contactez-nous dès aujourd'hui pour discuter de vos besoins et découvrir comment notre expertise peut soutenir vos projets.",
+    "button": "Nous contacter"
+  }
+}

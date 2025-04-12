@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCS CSS Test</title>
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .test-section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>GCS CSS Test Page</h1>
+    
+    <div class="test-section">
+        <h2>Button Tests</h2>
+        <button class="btn btn-primary">Primary Button</button>
+        <button class="btn btn-secondary">Secondary Button</button>
+        <button class="btn btn-accent">Accent Button</button>
+        <button class="btn btn-outline btn-outline-primary">Outline Button</button>
+    </div>
+    
+    <div class="test-section">
+        <h2>Color Tests</h2>
+        <div class="p-4 bg-primary text-white">Primary Background</div>
+        <div class="p-4 bg-secondary text-white">Secondary Background</div>
+        <div class="p-4 bg-accent text-white">Accent Background</div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Layout Tests</h2>
+        <div class="container-custom">
+            <div class="flex flex-col md:flex-row">
+                <div class="flex-1 p-4 bg-gray-100">Column 1</div>
+                <div class="flex-1 p-4 bg-gray-200">Column 2</div>
+                <div class="flex-1 p-4 bg-gray-300">Column 3</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Typography Tests</h2>
+        <h1 class="text-3xl font-bold text-primary">Heading 1</h1>
+        <h2 class="text-2xl font-semibold text-secondary">Heading 2</h2>
+        <p class="text-lg text-gray-700">Regular paragraph text.</p>
+    </div>
+    
+    <script>
+        // Check if Tailwind is loaded
+        window.onload = function() {
+            const styles = window.getComputedStyle(document.querySelector('.btn-primary'));
+            const bgColor = styles.backgroundColor;
+            
+            if (bgColor === 'rgba(0, 0, 0, 0)' || bgColor === 'transparent') {
+                document.body.innerHTML = '<h1>CSS IS NOT LOADING CORRECTLY</h1><p>The Tailwind styles are not being applied. Check the build process.</p>';
+                document.body.style.color = 'red';
+                document.body.style.padding = '20px';
+            }
+        };
+    </script>
+</body>
+</html>

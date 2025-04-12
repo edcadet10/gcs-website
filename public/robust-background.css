@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* Try the new background image path */
+  background-image: url('/assets/images/ui/gcs-website-bg-new.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+

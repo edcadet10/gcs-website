@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Geolink Consulting and Services - Solisyon jewomatik an Ayiti",
+    "description": "Sèvis jewomatik pwofesyonèl an Ayiti ak nan Karayib - SIG, katografi, teledetecsyon, analiz espasyal ak plis ankò."
+  },
+  "hero": {
+    "title": "Jewomatik nan sèvis tout moun",
+    "subtitle": "Solisyon jeyospasyal inovatif ki adapte ak bezwen espesifik Ayiti ak Karayib yo",
+    "discoverServices": "Dekouvri sèvis nou yo",
+    "workshopSignup": "Enskri pou yon fòmasyon"
+  },
+  "services": {
+    "title": "Sèvis nou yo",
+    "subtitle": "Ekspètiz jeyospasyal pou sipòte pwojè ou yo, soti nan koleksyon done rive nan analiz apwofondi",
+    "learnMore": "Aprann plis",
+    "viewAll": "Wè tout sèvis yo"
+  },
+  "projects": {
+    "title": "Pwojè resan yo",
+    "subtitle": "Dekouvri reyalizasyon nou yo epi kijan solisyon jewomatik nou yo te reponn ak defi kliyan nou yo",
+    "viewDetails": "Wè detay yo",
+    "viewAll": "Tout pwojè nou yo",
+    "goToSlide": "Ale nan pwojè {{index}}",
+    "next": "Pwojè swivan",
+    "previous": "Pwojè anvan"
+  },
+  "testimonials": {
+    "title": "Sa kliyan nou yo di",
+    "subtitle": "Dekouvri eksperyans moun ki te fè konfyans nan ekspètiz nou",
+    "previous": "Temwayaj anvan",
+    "next": "Temwayaj swivan",
+    "goToSlide": "Ale nan temwayaj {{index}}"
+  },
+  "stats": {
+    "title": "GCS an chif",
+    "projects": "Pwojè reyalize",
+    "clients": "Kliyan satisfè",
+    "trainings": "Moun ki resevwa fòmasyon",
+    "countries": "Peyi entèvansyon"
+  },
+  "newsletter": {
+    "title": "Rete enfòme",
+    "subtitle": "Enskri nan bilten enfòmasyon nou an pou resevwa dènye nouvèl ak resous yo",
+    "placeholder": "Adrès imèl ou",
+    "button": "Enskri",
+    "success": "Mèsi pou enskripsyon ou!",
+    "error": "Yon erè te fèt. Tanpri eseye ankò."
+  },
+  "cta": {
+    "title": "Ou pare pou transfòme done ou yo an desizyon?",
+    "subtitle": "Kontakte nou jodiya pou diskite sou bezwen ou yo epi dekouvri kijan ekspètiz nou ka sipòte pwojè ou yo.",
+    "button": "Kontakte nou"
+  }
+}

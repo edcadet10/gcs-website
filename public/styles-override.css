@@ -1,0 +1,47 @@
+/* Override styles for GCS website */
+
+/* Background image styling */
+body {
+  background-image: url('/assets/images/ui/gcs-website-bg.png') !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+/* Content area styling */
+.content-container {
+  background-color: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Enhanced section backgrounds */
+.section {
+  position: relative;
+}
+
+.section-with-bg {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Loader animation enhancement */
+.custom-loader {
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

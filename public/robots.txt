@@ -1,0 +1,12 @@
+# robots.txt for Geolink Consulting and Services (GCS)
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://geolinkservices.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /account/
+Disallow: /api/
+Disallow: /.netlify/functions/

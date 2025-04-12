@@ -1,0 +1,9 @@
+@echo off
+echo Fixing path aliases in the project...
+echo This may take a few moments.
+
+echo Clearing Next.js cache...
+rmdir /s /q .next
+
+echo Starting the development server...
+npm run dev

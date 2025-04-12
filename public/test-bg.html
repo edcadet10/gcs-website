@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background Test</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+    
+    .test-container {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 800px;
+    }
+    
+    .image-test {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    
+    .image-test div {
+      margin: 10px;
+      padding: 10px;
+      background-color: rgba(255, 255, 255, 0.2);
+      border-radius: 4px;
+    }
+    
+    img {
+      max-width: 100px;
+      max-height: 100px;
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #2AB7CA;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="test-container">
+    <h1>Background Image Test</h1>
+    <p>This page should display a background image and test several image paths.</p>
+    
+    <div class="image-test">
+      <div>
+        <img src="/assets/images/ui/gcs-loader-image.png" alt="Loader Path 1">
+        <p>/assets/images/ui/gcs-loader-image.png</p>
+      </div>
+      <div>
+        <img src="/images/ui/gcs-loader-image.png" alt="Loader Path 2">
+        <p>/images/ui/gcs-loader-image.png</p>
+      </div>
+      <div>
+        <img src="/gcs-loader-image.png" alt="Loader Path 3">
+        <p>/gcs-loader-image.png</p>
+      </div>
+    </div>
+    
+    <div>
+      <p>Test which background image path works by clicking these buttons:</p>
+      <button onclick="setBackground('/assets/images/ui/gcs-website-bg.png')">Path 1: /assets/images/ui/gcs-website-bg.png</button>
+      <button onclick="setBackground('/images/ui/gcs-website-bg.png')">Path 2: /images/ui/gcs-website-bg.png</button>
+      <button onclick="setBackground('/gcs-website-bg.png')">Path 3: /gcs-website-bg.png</button>
+    </div>
+    
+    <a href="/" class="button">Return to Main Site</a>
+  </div>
+
+  <script>
+    function setBackground(path) {
+      document.body.style.backgroundImage = `url('${path}')`;
+      document.body.style.backgroundSize = 'cover';
+      document.body.style.backgroundPosition = 'center';
+      document.body.style.backgroundAttachment = 'fixed';
+      
+      alert(`Background set to: ${path}`);
+    }
+    
+    // Try all paths in sequence
+    const paths = [
+      '/assets/images/ui/gcs-website-bg.png',
+      '/images/ui/gcs-website-bg.png',
+      '/gcs-website-bg.png'
+    ];
+    
+    let currentPathIndex = 0;
+    
+    function tryNextPath() {
+      if (currentPathIndex < paths.length) {
+        const path = paths[currentPathIndex];
+        console.log(`Trying background path: ${path}`);
+        document.body.style.backgroundImage = `url('${path}')`;
+        document.body.style.backgroundSize = 'cover';
+        document.body.style.backgroundPosition = 'center';
+        document.body.style.backgroundAttachment = 'fixed';
+        
+        currentPathIndex++;
+        setTimeout(tryNextPath, 2000);
+      }
+    }
+    
+    // Start testing paths
+    setTimeout(tryNextPath, 1000);
+  </script>
+</body>
+</html>

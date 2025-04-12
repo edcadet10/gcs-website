@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCS - Direct HTML Test</title>
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+        /* Fallback styles in case Tailwind doesn't load */
+        .navbar {
+            background-color: #1A365D;
+            color: white;
+            padding: 1rem;
+        }
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+        .hero {
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+        .buttons {
+            margin-top: 2rem;
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .btn {
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            font-weight: 500;
+        }
+        .btn-primary {
+            background-color: #1A365D;
+            color: white;
+        }
+        .btn-outline {
+            border: 2px solid #1A365D;
+            color: #1A365D;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar bg-primary text-white p-4">
+        <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-gray-200">Accueil</a></li>
+            <li><a href="#" class="hover:text-gray-200">Services</a></li>
+            <li><a href="#" class="hover:text-gray-200">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero py-12 text-center">
+        <h1 class="text-4xl font-bold text-primary mb-4">Geolink Consulting and Services</h1>
+        <p class="text-xl text-gray-600">Solutions géospatiales innovantes</p>
+        
+        <div class="buttons mt-8 flex justify-center space-x-4">
+            <a href="#" class="btn btn-primary">Nos Services</a>
+            <a href="#" class="btn btn-outline">Contact</a>
+        </div>
+    </div>
+
+    <div class="p-4 bg-white">
+        <h2 class="text-2xl font-bold text-primary mb-4">Test des styles Tailwind</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-primary text-white p-4 rounded">Couleur Primaire</div>
+            <div class="bg-secondary text-white p-4 rounded">Couleur Secondaire</div>
+            <div class="bg-accent text-white p-4 rounded">Couleur Accent</div>
+        </div>
+    </div>
+
+    <!-- Script to check if Tailwind CSS is loaded -->
+    <script>
+        window.onload = function() {
+            // Check if a Tailwind class is applied correctly
+            const primaryBg = document.querySelector('.bg-primary');
+            const computedStyle = window.getComputedStyle(primaryBg);
+            const bgColor = computedStyle.backgroundColor;
+            
+            // Add a visual indicator
+            const body = document.body;
+            const statusElement = document.createElement('div');
+            statusElement.style.padding = '1rem';
+            statusElement.style.margin = '1rem';
+            statusElement.style.position = 'fixed';
+            statusElement.style.bottom = '0';
+            statusElement.style.right = '0';
+            
+            if (bgColor === 'rgb(26, 54, 93)' || bgColor === '#1a365d') {
+                // Tailwind is working
+                statusElement.style.backgroundColor = 'green';
+                statusElement.style.color = 'white';
+                statusElement.textContent = 'Tailwind CSS is working! ✓';
+            } else {
+                // Tailwind is not working
+                statusElement.style.backgroundColor = 'red';
+                statusElement.style.color = 'white';
+                statusElement.textContent = 'Tailwind CSS is NOT working! ✗';
+                console.log('Current background color:', bgColor);
+            }
+            
+            body.appendChild(statusElement);
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+/* Main website background */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/assets/images/ui/gcs-website-bg-new.png');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #0b2247; /* Dark blue as fallback */
+  min-height: 100vh;
+}
+
+/* Remove all section backgrounds */
+.section.bg-primary,
+.section.bg-white,
+.section.bg-gray-50 {
+  background-color: transparent !important;
+  position: relative;
+  margin: 0;
+  padding: 60px 0;
+}
+
+/* Text styles for readability */
+.text-white {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.text-primary,
+.text-gray-600 {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}

@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "Konsènan GCS | Geolink Consulting and Services",
+    "description": "Dekouvri misyon nou, ekip nou ak valè nou yo. Geolink Consulting and Services (GCS) espesyalize nan solisyon jeyospasyal an Ayiti."
+  },
+  "hero": {
+    "title": "Konsènan nou",
+    "subtitle": "Nou se yon ekip pwofesyonèl jewomatik ki pasyone, ki dedye pou pote solisyon espasyal inovatif adapte ak kontèks ayisyen an."
+  },
+  "mission": {
+    "title": "Misyon nou",
+    "subtitle": "Bati yon avni miyò gras ak enfòmasyon jeyospasyal",
+    "imageAlt": "Ekip GCS sou teren",
+    "paragraph1": "Geolink Consulting and Services (GCS) te fonde an 2018 ak yon misyon klè: rann teknoloji jeyospasyal aksesib ak enpòtan pou reponn ak defi espesifik Ayiti ak rejyon Karayib la.",
+    "paragraph2": "Nou kwè fèmeman ke enfòmasyon jewografik jwe yon wòl enpòtan nan pran desizyon byen enfòme, planifikasyon efikas ak devlopman dirab. Apwòch nou konbine ekspètiz teknik, konesans pwofon kontèks lokal la ak angajman pou ekselans.",
+    "paragraph3": "Kit se pou jesyon katastwòf natirèl, devlopman iben, agrikilti oswa èd imanitè, nou efòse nou bay solisyon pèsonalize ki reponn ak bezwen espesifik kliyan nou yo pandan y ap kontribye pozitivman nan devlopman peyi a."
+  },
+  "values": {
+    "title": "Valè nou yo",
+    "subtitle": "Prensip ki gide travay nou chak jou",
+    "integrity": {
+      "title": "Pwobite",
+      "description": "Nou kenbe pi wo estanda onètete ak etik nan tout entèraksyon pwofesyonèl nou yo."
+    },
+    "excellence": {
+      "title": "Ekselans",
+      "description": "Nou angaje nou pou bay travay kalite eksepsyonèl ki depase atant kliyan nou yo."
+    },
+    "innovation": {
+      "title": "Inovasyon",
+      "description": "Nou toujou ap chèche nouvo apwòch ak teknoloji pou rezoud defi konplèks yo."
+    },
+    "collaboration": {
+      "title": "Kolaborasyon",
+      "description": "Nou travay an patenarya ak kliyan nou yo ak moun ki konsène yo pou asire rezilta optimal."
+    }
+  },
+  "team": {
+    "title": "Ekip nou",
+    "subtitle": "Pwofesyonèl pasyone ki konbine ekspètiz teknik ak konesans lokal",
+    "expertise": "Ekspètiz",
+    "education": "Fòmasyon"
+  },
+  "stats": {
+    "years": "Ane eksperyans",
+    "projects": "Pwojè reyalize",
+    "organizations": "Òganizasyon ki sèvi",
+    "trainees": "Moun ki resevwa fòmasyon"
+  },
+  "partners": {
+    "title": "Patnè nou yo",
+    "subtitle": "Nou kolabore ak òganizasyon lidè yo pou yon enpak maksimal"
+  },
+  "cta": {
+    "title": "Ou pare pou kolabore?",
+    "subtitle": "Kontakte nou pou diskite sou bezwen jewomatik ou yo",
+    "button": "Kontakte nou"
+  }
+}

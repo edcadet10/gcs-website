@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage -->
+  <url>
+    <loc>https://geolinkservices.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://geolinkservices.com/fr" />
+    <xhtml:link rel="alternate" hreflang="ht" href="https://geolinkservices.com/ht" />
+  </url>
+  
+  <!-- About Page -->
+  <url>
+    <loc>https://geolinkservices.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://geolinkservices.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="ht" href="https://geolinkservices.com/ht/about" />
+  </url>
+  
+  <!-- Services Page -->
+  <url>
+    <loc>https://geolinkservices.com/services</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://geolinkservices.com/fr/services" />
+    <xhtml:link rel="alternate" hreflang="ht" href="https://geolinkservices.com/ht/services" />
+  </url>
+  
+  <!-- Individual Service Pages -->
+  <url>
+    <loc>https://geolinkservices.com/services/gis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://geolinkservices.com/fr/services/gis" />
+    <xhtml:link rel="alternate" hreflang="ht" href="https://geolinkservices.com/ht/services/gis" />
+  </url>
+  <url>
+    <loc>https://geolinkservices.com/services/cartography</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://geolinkservices.com/fr/services/cartography" />
+    <xhtml:link rel="alternate" hreflang="ht" href="https://geolinkservices.com/ht/services/cartography" />
+  </url>
+  <url>
+    <loc>https://geolinkservices.com/services/remote-sensing</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://geolinkservices.com/fr/services/remote-sensing" />
+    <xhtml:link rel="alternate" hreflang="ht" href="https://geolinkservices.com/ht/services/remote-sensing" />
+  </url>
+  <url>
+    <loc>https://geolinkservices.com/services/spatial-analysis</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://geolinkservices.com/fr/services/spatial-analysis" />
+    <xhtml:link rel="alternate" hreflang="ht" href="https://geolinkservices.com/ht/services/spatial-analysis" />
+  </url>
+  <url>
+    <loc>https://geolinkservices.com/services/drone-imagery</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://geolinkservices.com/fr/services/drone-imagery" />
+    <xhtml:link rel="alternate" hreflang="ht" href="https://geolinkservices.com/ht/services/drone-imagery" />
+  </url>
+  <url>
+    <loc>https://geolinkservices.com/services/meal-gar</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://geolinkservices.com/fr/services/meal-gar" />
+    <xhtml:link rel="alternate" hreflang="ht" href="https://geolinkservices.com/ht/services/meal-gar" />
+  </url>
+  <url>
+    <loc>https://geolinkservices.com/services/data-analytics</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://geolinkservices.com/fr/services/data-analytics" />
+    <xhtml:link rel="alternate" hreflang="ht" href="https://geolinkservices.com/ht/services/data-analytics" />
+  </url>
+  
+  <!-- Projects Page -->
+  <url>
+    <loc>https://geolinkservices.com/projects</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://geolinkservices.com/fr/projects" />
+    <xhtml:link rel="alternate" hreflang="ht" href="https://geolinkservices.com/ht/projects" />
+  </url>
+  
+  <!-- Workshops Page -->
+  <url>
+    <loc>https://geolinkservices.com/workshops</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://geolinkservices.com/fr/workshops" />
+    <xhtml:link rel="alternate" hreflang="ht" href="https://geolinkservices.com/ht/workshops" />
+  </url>
+  
+  <!-- Resources Page -->
+  <url>
+    <loc>https://geolinkservices.com/resources</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://geolinkservices.com/fr/resources" />
+    <xhtml:link rel="alternate" hreflang="ht" href="https://geolinkservices.com/ht/resources" />
+  </url>
+  
+  <!-- Blog Page -->
+  <url>
+    <loc>https://geolinkservices.com/blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://geolinkservices.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="ht" href="https://geolinkservices.com/ht/blog" />
+  </url>
+  
+  <!-- Contact Page -->
+  <url>
+    <loc>https://geolinkservices.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://geolinkservices.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="ht" href="https://geolinkservices.com/ht/contact" />
+  </url>
+</urlset>

@@ -1,0 +1,23 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+  functions = "functions"
+
+[dev]
+  command = "npm run dev"
+  port = 3001
+  
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+[functions]
+  included_files = ["locales/**"]
+  node_bundler = "esbuild"
+
+[build.environment]
+  NEXT_PUBLIC_SITE_URL = "https://geolinkservices.com"
