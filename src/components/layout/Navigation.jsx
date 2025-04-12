@@ -10,7 +10,6 @@ export default function Navigation({ isScrolled = true, mobile = false, closeMob
     { name: t('nav.home'), href: '/' },
     { name: t('nav.about'), href: '/about' },
     { name: t('nav.services'), href: '/services' },
-    { name: t('nav.projects'), href: '/projects' },
     { name: t('nav.workshops'), href: '/workshops' },
     { name: t('nav.resources'), href: '/resources' },
     { name: t('nav.blog'), href: '/blog' },

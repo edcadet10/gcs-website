@@ -5,7 +5,7 @@ import Layout from '../components/layout/Layout';
 import Hero from '../components/sections/home/Hero';
 import ServicePreview from '../components/sections/home/ServicePreview';
 import Testimonials from '../components/sections/home/Testimonials';
-import LatestProjects from '../components/sections/home/LatestProjects';
+
 
 export default function Home() {
   const { t } = useTranslation('home');
@@ -14,7 +14,6 @@ export default function Home() {
     <Layout title={t('meta.title')} description={t('meta.description')}>
       <Hero />
       <ServicePreview />
-      <LatestProjects />
       <Testimonials />
     </Layout>
   );

@@ -8,7 +8,6 @@ This website serves as the online presence for Geolink Consulting and Services, 
 
 - Multilingual support (French and Haitian Creole)
 - Service portfolio showcase
-- Project gallery with case studies
 - Workshop registration system
 - Resources download center
 - Contact form and client management
@@ -98,7 +97,7 @@ The website supports both French and Haitian Creole languages through the `next-
 User authentication is handled through Supabase Auth, allowing for secure login, registration, and profile management. Protected routes ensure only authenticated users can access certain content.
 
 ### Maps Integration
-The site incorporates Leaflet with OpenStreetMap for interactive maps, showcasing project locations and office details.
+The site incorporates Leaflet with OpenStreetMap for interactive maps, showcasing office locations and service areas.
 
 ### Workshop Registration
 A complete workshop management system enables users to browse available workshops, register, and process payments through secure Netlify Functions.
@@ -145,7 +144,7 @@ The `netlify.toml` file includes configurations for:
 
 - **Project Structure:** 100% complete
 - **UI Components:** 100% complete
-- **Core Pages:** 75% complete (Home, About, Services, Projects, Contact implemented)
+- **Core Pages:** 75% complete (Home, About, Services, Contact implemented)
 - **Authentication:** 50% complete (context and APIs done, pages pending)
 - **Internationalization:** 70% complete (core translations done, additional pages pending)
 - **API Functions:** 70% complete (core functions implemented)
