@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "title": "About GCS | Geolink Consulting and Services",
+    "description": "Discover our mission, our team and our values. Geolink Consulting and Services (GCS) specializes in geospatial solutions in Haiti."
+  },
+  "hero": {
+    "title": "About us",
+    "subtitle": "We are a passionate team of geomatics professionals dedicated to bringing innovative spatial solutions adapted to the Haitian context."
+  },
+  "mission": {
+    "title": "Our mission",
+    "subtitle": "Building a better future through geospatial information",
+    "imageAlt": "GCS team in the field",
+    "paragraph1": "Geolink Consulting and Services (GCS) was founded in 2018 with a clear mission: to make geospatial technologies accessible and relevant to address the specific challenges of Haiti and the Caribbean region.",
+    "paragraph2": "We firmly believe that geographic information plays a crucial role in informed decision-making, effective planning, and sustainable development. Our approach combines technical expertise, deep knowledge of the local context, and commitment to excellence.",
+    "paragraph3": "Whether for natural disaster management, urban development, agriculture, or humanitarian aid, we strive to provide tailored solutions that meet the specific needs of our clients while making a positive contribution to the country's development."
+  },
+  "values": {
+    "title": "Our values",
+    "subtitle": "The principles that guide our work every day",
+    "integrity": {
+      "title": "Integrity",
+      "description": "We maintain the highest standards of honesty and ethics in all our professional interactions."
+    },
+    "excellence": {
+      "title": "Excellence",
+      "description": "We are committed to delivering work of exceptional quality that exceeds our clients' expectations."
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "We constantly seek new approaches and technologies to solve complex challenges."
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "description": "We work in partnership with our clients and stakeholders to ensure optimal results."
+    }
+  },
+  "team": {
+    "title": "Our team",
+    "subtitle": "Passionate professionals combining technical expertise and local knowledge",
+    "expertise": "Expertise",
+    "education": "Education"
+  },
+  "stats": {
+    "years": "Years of experience",
+    "projects": "Completed projects",
+    "organizations": "Organizations served",
+    "trainees": "People trained"
+  },
+  "partners": {
+    "title": "Our partners",
+    "subtitle": "We collaborate with leading organizations for maximum impact"
+  },
+  "cta": {
+    "title": "Ready to collaborate?",
+    "subtitle": "Contact us to discuss your geomatics needs",
+    "button": "Contact us"
+  }
+}

@@ -9,6 +9,7 @@ export default function LanguageSwitch() {
   
   const languages = [
     { code: 'fr', name: 'Français' },
+    { code: 'en', name: 'English' },
     { code: 'ht', name: 'Kreyòl Ayisyen' },
   ];
   

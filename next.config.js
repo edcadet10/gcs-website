@@ -20,9 +20,6 @@ const nextConfig = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
-  experimental: {
-    appDir: false,
-  },
 }
 
 module.exports = nextConfig

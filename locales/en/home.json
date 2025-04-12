@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "Geolink Consulting and Services - Geomatics Solutions in Haiti",
+    "description": "Professional geomatics services in Haiti and the Caribbean - GIS, mapping, remote sensing, spatial analysis and more."
+  },
+  "hero": {
+    "title": "Geomatics serving everyone",
+    "subtitle": "Innovative geospatial solutions tailored to the specific needs of Haiti and the Caribbean",
+    "discoverServices": "Discover our services",
+    "workshopSignup": "Register for a workshop"
+  },
+  "services": {
+    "title": "Our services",
+    "subtitle": "Geospatial expertise to support your projects, from data collection to in-depth analysis",
+    "learnMore": "Learn more",
+    "viewAll": "View all services"
+  },
+  "projects": {
+    "title": "Recent projects",
+    "subtitle": "Discover our achievements and how our geomatics solutions have addressed our clients' challenges",
+    "viewDetails": "View details",
+    "viewAll": "All our projects",
+    "goToSlide": "Go to project {{index}}",
+    "next": "Next project",
+    "previous": "Previous project"
+  },
+  "testimonials": {
+    "title": "What our clients say",
+    "subtitle": "Discover the experience of those who have trusted our expertise",
+    "previous": "Previous testimonial",
+    "next": "Next testimonial",
+    "goToSlide": "Go to testimonial {{index}}"
+  },
+  "stats": {
+    "title": "GCS in numbers",
+    "projects": "Completed projects",
+    "clients": "Satisfied clients",
+    "trainings": "People trained",
+    "countries": "Countries of operation"
+  },
+  "newsletter": {
+    "title": "Stay informed",
+    "subtitle": "Subscribe to our newsletter to receive the latest news and resources",
+    "placeholder": "Your email address",
+    "button": "Subscribe",
+    "success": "Thank you for subscribing!",
+    "error": "An error occurred. Please try again."
+  },
+  "cta": {
+    "title": "Ready to transform your data into decisions?",
+    "subtitle": "Contact us today to discuss your needs and discover how our expertise can support your projects.",
+    "button": "Contact us"
+  }
+}

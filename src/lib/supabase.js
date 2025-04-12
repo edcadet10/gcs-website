@@ -1,6 +1,5 @@
 import { createClient } from '@supabase/supabase-js';
 import mockServices from '../data/mock/services';
-import mockProjects from '../data/mock/projects';
 
 // Environment variables
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -151,90 +150,7 @@ export async function getServiceBySlug(slug) {
   }
 }
 
-// Get projects
-export async function getProjects(options = {}) {
-  try {
-    if (useMockData) {
-      let filteredProjects = [...mockProjects];
-      
-      // Apply filters
-      if (options.serviceSlug) {
-        filteredProjects = filteredProjects.filter(p => p.serviceSlug === options.serviceSlug);
-      }
-      
-      // Apply limit
-      if (options.limit) {
-        filteredProjects = filteredProjects.slice(0, options.limit);
-      }
-      
-      return { projects: filteredProjects };
-    }
-    
-    let query = supabase
-      .from('projects')
-      .select('*');
-      
-    // Apply filters
-    if (options.serviceSlug) {
-      query = query.eq('service_slug', options.serviceSlug);
-    }
-    
-    // Apply order
-    query = query.order('date', { ascending: false });
-    
-    // Apply limit
-    if (options.limit) {
-      query = query.limit(options.limit);
-    }
-    
-    const { data, error } = await query;
-      
-    if (error) throw error;
-    return { projects: data };
-  } catch (error) {
-    return handleSupabaseError(error);
-  }
-}
 
-// Get project by slug
-export async function getProjectBySlug(slug) {
-  try {
-    if (useMockData) {
-      const project = mockProjects.find(p => p.slug === slug);
-      
-      // Get related projects (same service)
-      const relatedProjects = project 
-        ? mockProjects
-            .filter(p => p.serviceSlug === project.serviceSlug && p.slug !== slug)
-            .slice(0, 3)
-        : [];
-        
-      return { project, relatedProjects };
-    }
-    
-    const { data: project, error } = await supabase
-      .from('projects')
-      .select('*')
-      .eq('slug', slug)
-      .single();
-      
-    if (error) throw error;
-    
-    // Get related projects (same service)
-    const { data: relatedProjects, error: relatedError } = await supabase
-      .from('projects')
-      .select('*')
-      .eq('service_slug', project.service_slug)
-      .neq('slug', slug)
-      .limit(3);
-      
-    if (relatedError) throw relatedError;
-    
-    return { project, relatedProjects };
-  } catch (error) {
-    return handleSupabaseError(error);
-  }
-}
 
 // Get workshops
 export async function getWorkshops() {
