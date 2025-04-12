@@ -5,11 +5,11 @@
   },
   "nav": {
     "home": "Akèy",
-    "about": "Konsènan nou",
-    "services": "Sèvis yo",
-    "projects": "Pwojè yo",
-    "workshops": "Fòmasyon yo",
-    "resources": "Resous yo",
+    "about": "Kiyes nou ye",
+    "services": "Sèvis",
+    "projects": "Pwojè",
+    "workshops": "Fòmasyon",
+    "resources": "Resous",
     "blog": "Blòg",
     "contact": "Kontakte nou"
   },
@@ -109,6 +109,9 @@
     "mapPlaceholder": "Kat entèaktif la an devlopman",
     "mapDescription": "Vizualize pozisyon egzak biwo nou yo.",
     "socialTitle": "Swiv nou",
+    "getInTouch": "Kontakte nou",
+    "messageUs": "Voye nou yon mesaj",
+    "contactButton": "Kontakte nou kounye a",
     "form": {
       "inquiryType": "Tip demann",
       "name": "Non",
@@ -118,6 +121,7 @@
       "submit": "Voye"
     },
     "inquiryTypes": {
+      "title": "Tip demann nou aksepte",
       "general": "Demann jeneral",
       "services": "Sèvis",
       "training": "Fòmasyon",

@@ -18,7 +18,6 @@ export default function Footer() {
   
   const quickLinks = [
     { name: t('footer.about'), href: '/about' },
-    { name: t('footer.projects'), href: '/projects' },
     { name: t('footer.workshops'), href: '/workshops' },
     { name: t('footer.resources'), href: '/resources' },
     { name: t('footer.blog'), href: '/blog' },

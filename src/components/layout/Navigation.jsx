@@ -13,7 +13,6 @@ export default function Navigation({ isScrolled = true, mobile = false, closeMob
     { name: t('nav.workshops'), href: '/workshops' },
     { name: t('nav.resources'), href: '/resources' },
     { name: t('nav.blog'), href: '/blog' },
-    { name: t('nav.contact'), href: '/contact' },
   ];
   
   const isActive = (path) => {

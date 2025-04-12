@@ -109,6 +109,9 @@
     "mapPlaceholder": "Carte interactive en cours de développement",
     "mapDescription": "Visualisez l'emplacement exact de nos bureaux.",
     "socialTitle": "Suivez-nous",
+    "getInTouch": "Contactez-nous",
+    "messageUs": "Envoyez-nous un message",
+    "contactButton": "Contactez-nous maintenant",
     "form": {
       "inquiryType": "Type de demande",
       "name": "Nom",
@@ -118,6 +121,7 @@
       "submit": "Envoyer"
     },
     "inquiryTypes": {
+      "title": "Types de demandes acceptées",
       "general": "Demande générale",
       "services": "Services",
       "training": "Formation",

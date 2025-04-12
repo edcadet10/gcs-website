@@ -3,6 +3,7 @@ import { useTranslation } from 'next-i18next';
 import { useEffect } from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import ContactSection from '../sections/common/ContactSection';
 
 export default function Layout({ children, title, description }) {
   const { t } = useTranslation('common');
@@ -27,6 +28,7 @@ export default function Layout({ children, title, description }) {
           <main className="flex-grow">
             {children}
           </main>
+          <ContactSection />
           <Footer />
         </div>
       </div>
